@@ -1,0 +1,27 @@
+# .gitignore para proyecto Python
+
+# Archivos y carpetas de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos virtuales
+env/
+venv/
+.venv/
+
+# Archivos de configuración de VSCode
+.vscode/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ejecutables
+*.exe
+
+# Archivos de base de datos (si NO quieres subirlos, descomenta la siguiente línea)
+*.db
+
+# Archivos de logs
+*.log
